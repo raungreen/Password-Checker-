@@ -5,6 +5,7 @@ function measureStrength(){
   let strengthLevel = 'Weak';
   let password = passwordElem.value;
 
+//checks that password contains a number
   var numberRegex = /\d/
 
 if(numberRegex.test(password)){
